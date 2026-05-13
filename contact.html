@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="David DeFazio">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Contact 518 Property Mgmt for lawn mowing and property maintenance quotes in Troy, Albany, and the Capital District.">
+    <title>Contact - 518 Property Mgmt</title>
+</head>
+<body>
+    <header>
+        <h1>518 Property Mgmt</h1>
+        <p>Reliable lawn maintenance and property upkeep in the Capital District</p>
+        <p class="tagline">Simple. Clean. Reliable.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="contact" class="contact">
+            <h2>Request a Quote</h2>
+            <p>For lawn maintenance or basic property upkeep, email the property address and a short description of what you need.</p>
+            <p><strong>Email:</strong> <a href="mailto:info@518propertymgmt.com">info@518propertymgmt.com</a></p>
+            <p><strong>Phone/Text:</strong> <a href="tel:15186295630">(518) 629-5630</a></p>
+
+            <form action="mailto:info@518propertymgmt.com" method="post" enctype="text/plain">
+                <label>Name:
+                    <input type="text" name="name" required>
+                </label>
+                <label>Email:
+                    <input type="email" name="email" required>
+                </label>
+                <label>Property Address:
+                    <input type="text" name="property_address">
+                </label>
+                <label>Message:
+                    <textarea name="message" rows="6" required></textarea>
+                </label>
+                <button type="submit">Send Request</button>
+            </form>
+            <p class="small-note">Note: If the form does not open your email app, email directly at info@518propertymgmt.com.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 518 Property Mgmt. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
